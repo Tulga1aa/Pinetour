@@ -1,0 +1,40 @@
+.header-logo {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  padding: 15px 0px;
+  justify-content: center;
+  width: 100%;
+}
+.hero-subtitle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+  gap: 15px;
+}
+.hero-title {
+  font-size: 72px;
+  line-height: 87.77px;
+}
+.hero-sub {
+  color: #ababab;
+  font-size: 24px;
+  font-size: 24px;
+  line-height: 29.26px;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 600px;
+}
+.hero-img {
+  display: flex;
+  border-radius: 12px;
+  height: 450px;
+  width: 320px;
+}

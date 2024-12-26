@@ -1,0 +1,100 @@
+.pri {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin: 240px;
+  justify-content: center;
+  width: 790px;
+  height: 610px;
+}
+.pricing-subtitel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.pricing-sub {
+  display: flex;
+  color: #ababab;
+  font-size: 24px;
+  line-height: 29.36px;
+  width: auto;
+  height: 30px;
+  text-align: center;
+}
+.pricing-title {
+  display: flex;
+  width: 300px;
+  height: 120px;
+  margin-bottom: 80px;
+  font-size: 52px;
+  line-height: 60px;
+  text-align: center;
+}
+.pricing-pack {
+  display: flex;
+  flex-flow: row;
+  gap: 20px;
+}
+.pricing-pack-starter {
+  display: flex;
+  flex-flow: column;
+  height: 370px;
+  width: 285px;
+  background-color: white;
+  border-radius: 12px;
+  margin: 2px;
+  justify-content: space-between;
+}
+.pricing-pack-luxury {
+  display: flex;
+  flex-flow: column;
+  height: 370px;
+  width: 285px;
+  background-color: white;
+  border-radius: 12px;
+  justify-content: space-between;
+  margin: 2px;
+}
+.pricing-pack-title {
+  margin: 40px 0px 28px 40px;
+  width: 155px;
+  height: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: black;
+}
+.pricing-pack-sub {
+  margin: 13px 0px 6px 50px;
+  width: auto;
+  height: 24px;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #777;
+  text-align: left;
+}
+.pricing-price {
+  display: flex;
+  font-size: 32px;
+  line-height: 39.01px;
+  width: 105px;
+  height: 39px;
+  align-self: end;
+  margin: 24px 40px 30px 0px;
+  justify-content: end;
+  color: black;
+}
+.pricing-button {
+  border: 0px;
+  border-radius: 12px;
+}
+button:hover {
+  background-color: #18ba51;
+}
