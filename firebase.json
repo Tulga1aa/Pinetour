@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "public", // Replace "public" with your actual build folder
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
